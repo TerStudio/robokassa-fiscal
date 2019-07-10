@@ -1,6 +1,6 @@
 <?php
 
-namespace Drupal\app\AppBundle\Utils;
+namespace Drupal\YOUR\NAMESPACE;
 
 
 class PaymentFiscalSecond
@@ -15,10 +15,6 @@ class PaymentFiscalSecond
      * @param $paymentMethod
      * @param $paymentObject
      * @param $sno
-     * @internal param string $login login of Merchant
-     * @internal param string $paymentPassword password #1
-     * @internal param string $validationPassword password #2
-     * @internal param bool $testMode use test server
      */
     public function __construct($orderId, $tax, $paymentMethod, $paymentObject, $sno)
     {
