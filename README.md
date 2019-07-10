@@ -10,6 +10,7 @@ https://docs.robokassa.ru/?_ga=2.260570829.1196230086.1561971708-1690336568.1464
 
 Пример вызова:
  ```php
+ use Drupal\YOUR\NAMESPACE\PaymentFiscalSecond;
  $fiscal = new PaymentFiscalSecond($orderId, $tax, $paymentMethod, $paymentObject, $sno);
  
  $fiscal->collectData();
